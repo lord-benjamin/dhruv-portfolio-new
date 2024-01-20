@@ -17,10 +17,7 @@ const Contact = () => {
           <h1 className='text-3xl md:text-5xl font-acme font-normal sm:font-bold text-coke dark:text-white'>
             Interested in <span className='text-orange'>collaborating</span> on
             a project? <br />
-            Feel free to get in <span className='text-orange'>
-              Contact
-            </span>{' '}
-            on...
+            Feel free to <span className='text-orange'>Contact</span> on...
           </h1>
           <div className='flex items-center justify-center sm:justify-start gap-3 sm:gap-6 mt-6'>
             <a
@@ -29,7 +26,10 @@ const Contact = () => {
               rel='noreferrer'
               className='bg-gray-400 bg-opacity-40 rounded-full p-2 sm:p-3 md:p-4'
             >
-              <img src={githubImg} className='h-8 sm:h-10 md:h-16 w-8 sm:w-10 md:w-16'></img>
+              <img
+                src={githubImg}
+                className='h-8 sm:h-10 md:h-16 w-8 sm:w-10 md:w-16'
+              ></img>
             </a>
             <a
               href='https://linkedin.com/in/dhruv-arora-legit'
@@ -37,7 +37,10 @@ const Contact = () => {
               rel='noreferrer'
               className='bg-gray-400 bg-opacity-40 rounded-full p-2 sm:p-3 md:p-4'
             >
-              <img src={linkedinImg} className='h-8 sm:h-10 md:h-16 w-8 sm:w-10 md:w-16'></img>
+              <img
+                src={linkedinImg}
+                className='h-8 sm:h-10 md:h-16 w-8 sm:w-10 md:w-16'
+              ></img>
             </a>
             <a
               href='mailto:dhruvarora2612@gmail.com'
@@ -45,7 +48,10 @@ const Contact = () => {
               rel='noreferrer'
               className='bg-gray-400 bg-opacity-40 rounded-full p-2 sm:p-3 md:p-4'
             >
-              <img src={emailImg} className='h-8 sm:h-10 md:h-16 w-8 sm:w-10 md:w-16'></img>
+              <img
+                src={emailImg}
+                className='h-8 sm:h-10 md:h-16 w-8 sm:w-10 md:w-16'
+              ></img>
             </a>
             <a
               href='https://linktr.ee/dhruv_arora'
@@ -53,7 +59,10 @@ const Contact = () => {
               rel='noreferrer'
               className='bg-gray-400 bg-opacity-40 rounded-full p-2 sm:p-3 md:p-4'
             >
-              <img src={linktreeImg} className='h-8 sm:h-10 md:h-16 w-8 sm:w-10 md:w-16'></img>
+              <img
+                src={linktreeImg}
+                className='h-8 sm:h-10 md:h-16 w-8 sm:w-10 md:w-16'
+              ></img>
             </a>
           </div>
         </div>
