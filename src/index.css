@@ -2,11 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
+body {
   background-image: url('assets/background.svg');
   background-repeat: repeat;
   background-position: center;
-  /* background-size: fit; */
   background-size: auto;
-  /* background-color: #22092C; */
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0);
+  border-radius: 20px;
+}
+::-webkit-scrollbar-thumb {
+  background: #f05941;
+  border-radius: 20px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #f0594190;
+  width: 10px;
 }
