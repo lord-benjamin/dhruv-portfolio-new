@@ -60,13 +60,16 @@ const Project = ({
                 idx % 2 ? 'sm:justify-end' : 'sm:justify-start'
               }`}
             >
+              <img src={link} className='sm:hidden h-7 w-7'></img>
+              {idx % 2 ? null : (
+                <img src={link} className='hidden sm:block h-7 w-7'></img>
+              )}
               <span className='text-base md:text-lg group-hover:underline duration-300'>
-                Visit Website
+                Experience Live
               </span>
-              <img
-                src={link}
-                className='h-7 w-7 group-hover:scale-90 duration-300'
-              ></img>
+              {idx % 2 ? (
+                <img src={link} className='hidden sm:block h-7 w-7'></img>
+              ) : null}
             </a>
             <div className='pb-[40%] sm:pb-[50%]'>
               <div className='relative'>

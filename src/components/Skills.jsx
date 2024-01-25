@@ -14,6 +14,7 @@ import javascript from '../assets/skills/javascript.svg';
 import bootstrap from '../assets/skills/bootstrap.svg';
 import next from '../assets/skills/next.svg';
 import typescript from '../assets/skills/typescript.svg';
+import redux from '../assets/skills/redux.svg';
 import cpp from '../assets/skills/cpp.svg';
 import codechef from '../assets/skills/codechef.svg';
 import codeforces from '../assets/skills/codeforces.svg';
@@ -116,6 +117,12 @@ const Skills = () => {
       icon: typescript,
       tag: 'language',
       website: 'https://www.typescriptlang.org',
+    },
+    {
+      name: 'Redux',
+      icon: redux,
+      tag: 'library',
+      website: 'https://redux.js.org',
     },
   ];
   const compProg = [
