@@ -8,34 +8,34 @@ const Header = () => {
   const opacityLayerSelect = useRef();
 
   window.onscroll = () => {
-    window.scrollY > 100
+    window.scrollY > 50
       ? navSelect.current?.classList.add('bg-white')
       : navSelect.current?.classList.remove('bg-white');
-    window.scrollY > 100
+    window.scrollY > 50
       ? navSelect.current?.classList.add('dark:bg-coke')
       : navSelect.current?.classList.remove('dark:bg-coke');
-    window.scrollY > 100
+    window.scrollY > 50
       ? navSelect.current?.classList.add('h-16')
       : navSelect.current?.classList.remove('h-16');
-    window.scrollY > 100
+    window.scrollY > 50
       ? navSelect.current?.classList.remove('h-24')
       : navSelect.current?.classList.add('h-24');
-    window.scrollY > 100
+    window.scrollY > 50
       ? hamSelect.current?.classList.remove('top-24')
       : hamSelect.current?.classList.add('top-24');
-    window.scrollY > 100
+    window.scrollY > 50
       ? hamSelect.current?.classList.add('top-16')
       : hamSelect.current?.classList.remove('top-16');
-    window.scrollY > 100
+    window.scrollY > 50
       ? opacityLayerSelect.current?.classList.remove('top-24')
       : opacityLayerSelect.current?.classList.add('top-24');
-    window.scrollY > 100
+    window.scrollY > 50
       ? opacityLayerSelect.current?.classList.add('top-16')
       : opacityLayerSelect.current?.classList.remove('top-16');
-    window.scrollY > 100
+    window.scrollY > 50
       ? opacityLayerSelect.current?.classList.remove('bg-transparent')
       : opacityLayerSelect.current?.classList.add('bg-transparent');
-    window.scrollY > 100
+    window.scrollY > 50
       ? opacityLayerSelect.current?.classList.add('bg-coke')
       : opacityLayerSelect.current?.classList.remove('bg-coke');
   };
@@ -97,15 +97,15 @@ const Header = () => {
           {hamMenu && (
             <div
               className={`fixed bottom-0 left-0 sm:left-auto right-0 text-center pt-2 px-5 md:px-10 lg:px-20 top-${
-                window.scrollY > 100 ? '16' : '24'
+                window.scrollY > 50 ? '16' : '24'
               }`}
               ref={hamSelect}
             >
               <div
                 className={`fixed left-0 right-0 bottom-0 top-${
-                  window.scrollY > 100 ? '16' : '24'
+                  window.scrollY > 50 ? '16' : '24'
                 } ${
-                  window.scrollY > 100 ? 'bg-coke' : 'bg-transparent'
+                  window.scrollY > 50 ? 'bg-coke' : 'bg-transparent'
                 } bg-opacity-20 dark:bg-opacity-50 -z-10`}
                 ref={opacityLayerSelect}
                 onClick={() => setHamMenu(false)}

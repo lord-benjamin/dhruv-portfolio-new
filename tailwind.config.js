@@ -24,7 +24,15 @@ export default {
         'verticalMarquee2': 'verticalMarquee2 10s linear infinite',
         'verticalMarquee3': 'verticalMarquee3 10s linear infinite',
         'verticalMarquee4': 'verticalMarquee4 10s linear infinite',
-        'spinning': 'spinning 5s linear infinite'
+        'spinning': 'spinning 5s linear infinite',
+        'horizontalMarqueeLeft': 'horizontalMarqueeLeft 60s linear infinite',
+        'horizontalMarqueeLeft2': 'horizontalMarqueeLeft2 60s linear infinite',
+        'horizontalMarqueeLeft3': 'horizontalMarqueeLeft3 60s linear infinite',
+        'horizontalMarqueeLeft4': 'horizontalMarqueeLeft4 60s linear infinite',
+        'horizontalMarqueeRight': 'horizontalMarqueeRight 60s linear infinite',
+        'horizontalMarqueeRight2': 'horizontalMarqueeRight2 60s linear infinite',
+        'horizontalMarqueeRight3': 'horizontalMarqueeRight3 60s linear infinite',
+        'horizontalMarqueeRight4': 'horizontalMarqueeRight4 60s linear infinite',
       },
       keyframes: {
         zoom: {
@@ -49,6 +57,38 @@ export default {
         },
         spinning: {
           '100%': { transform: 'rotate(360deg)' },
+        },
+        horizontalMarqueeLeft: {
+          '0%': { transform: 'translateX(0%)' },
+          '100%': { transform: 'translateX(-100%)' },
+        },
+        horizontalMarqueeLeft2: {
+          '0%': { transform: 'translateX(100%)' },
+          '100%': { transform: 'translateX(0%)' },
+        },
+        horizontalMarqueeLeft3: {
+          '0%': { transform: 'translateX(0%)' },
+          '100%': { transform: 'translateX(-100%)' },
+        },
+        horizontalMarqueeLeft4: {
+          '0%': { transform: 'translateX(100%)' },
+          '100%': { transform: 'translateX(0%)' },
+        },
+        horizontalMarqueeRight: {
+          '0%': { transform: 'translateX(-100%)' },
+          '100%': { transform: 'translateX(0%)' },
+        },
+        horizontalMarqueeRight2: {
+          '0%': { transform: 'translateX(0%)' },
+          '100%': { transform: 'translateX(100%)' },
+        },
+        horizontalMarqueeRight3: {
+          '0%': { transform: 'translateX(-100%)' },
+          '100%': { transform: 'translateX(0%)' },
+        },
+        horizontalMarqueeRight4: {
+          '0%': { transform: 'translateX(0%)' },
+          '100%': { transform: 'translateX(100%)' },
         },
       }
     },
